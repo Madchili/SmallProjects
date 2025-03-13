@@ -5,7 +5,7 @@ import Link from "next/link";
 import Header from "./components/Header/header";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useUserContext } from "./context/usercontext";
+import { useUserContext } from "./context/userContext";
 
 
 export default function Start() {

@@ -1,6 +1,6 @@
 'use client'
 // /app/Profile/page.js
-import { useUserContext } from "../context/usercontext"; 
+import { useUserContext } from "../context/userContext"; 
 import Header from "../components/Header/header"; 
 import Image from 'next/image';
 

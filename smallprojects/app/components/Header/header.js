@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import { useUserContext } from "../../context/usercontext"
+import { useUserContext } from "../../context/userContext"
 
 export default function Header() {
 

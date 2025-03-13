@@ -1,7 +1,7 @@
 
 // /app/projects/Dennisidea/page.js
 import Header from "../../components/Header/header";
-import DennisComp from "../../components/DennisComp/denniscomp";
+import DennisComp from "../../components/DennisComp/dennisComp";
 
 export default function TimerPage() {    
     return (
