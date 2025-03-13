@@ -1,6 +1,6 @@
 'use client'
-import Header from "@/components/Header/Header";
-import DennisComp from "@/components/DennisComp/DennisComp";
+import Header from "../../components/Header/Header";
+import DennisComp from "../../components/DennisComp/DennisComp";
 
 export default function TimerPage() {    
     return (
