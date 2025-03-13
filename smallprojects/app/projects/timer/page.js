@@ -1,5 +1,5 @@
-import Timer from "@/app/components/timer/Timer";
-import Header from "@/app/components/Header/Header";
+import Timer from "../../components/timer/Timer";
+import Header from "../../components/Header/Header";
 
 export default function TimerPage() {    
     return (

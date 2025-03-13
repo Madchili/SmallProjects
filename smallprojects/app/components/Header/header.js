@@ -2,7 +2,7 @@
 import Link from "next/link"
 import Image from "next/image"
 
-import { useUserContext } from "@/app/context/UserContext.js"
+import { useUserContext } from "@/app/context/UserContext"
 
 export default function Header() {
 
