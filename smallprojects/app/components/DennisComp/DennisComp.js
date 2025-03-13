@@ -1,5 +1,6 @@
-
+// /app/components/DennisComp/denniscomp.js
 'use client'
+
 export default function DennisComp() {
     return (
         <div className="m-2">

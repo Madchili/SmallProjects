@@ -1,5 +1,5 @@
 'use client'
-
+// app/components/Networth/networth.js
 export default function Networth() {
     return (
         <div className="m-2">

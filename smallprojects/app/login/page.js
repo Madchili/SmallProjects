@@ -1,4 +1,5 @@
 'use client'
+// /app/login/page.js
 export default function Login() {
     return (
         <div>

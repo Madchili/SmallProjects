@@ -1,4 +1,5 @@
 'use client'
+// /app/home/page.js
 import Header from "../components/Header/header"
 
 export default function Home() {

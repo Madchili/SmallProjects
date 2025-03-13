@@ -1,16 +1,19 @@
+/** @type {import('next').NextConfig} */
 import { resolve } from 'path';
 
-/** @type {import('next').NextConfig} */
+
 const nextConfig = {
-  webpack: (config, { isServer }) => {
+  experimental: {
+    appDir: true,
+  },
+  webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@components': resolve(__dirname, 'app/components'),
-      '@context': resolve(__dirname, 'app/context'),
+      '@context': resolve(process.cwd(), 'app/context'),
+      '@components': resolve(process.cwd(), 'app/components'),
     };
     return config;
   },
 };
 
 export default nextConfig;
-
