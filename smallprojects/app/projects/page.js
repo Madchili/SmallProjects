@@ -1,5 +1,5 @@
 
-import Header from "../components/Header/header"
+import Header from "../components/Header/Header"
 import Link from "next/link"
 // import { Flowchart, Node, Edge } from "../components/ui/flowchart";
 

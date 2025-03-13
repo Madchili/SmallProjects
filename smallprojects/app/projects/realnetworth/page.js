@@ -1,5 +1,5 @@
-import Networth from "../../components/timer/Networth";
-import Header from "../../components/Header/header";
+import Networth from "../../components/Networth/Networth";
+import Header from "../../components/Header/Header";
 
 export default function TimerPage() {    
     return (
