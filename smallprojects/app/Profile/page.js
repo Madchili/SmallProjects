@@ -1,6 +1,6 @@
 'use client'
-import { useUserContext } from "../context/UserContext"
-import Header from "../components/Header/Header";
+import { useUserContext } from "@/app/context/UserContext"
+import Header from "@/app/components/Header/Header";
 import Image from 'next/image';
 
 export default function ProfilePage() {
