@@ -1,4 +1,4 @@
-'use client'
+
 // /app/projects/page.js
 import Header from "../components/Header/header"
 import Link from "next/link"

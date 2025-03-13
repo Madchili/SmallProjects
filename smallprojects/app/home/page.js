@@ -1,4 +1,4 @@
-'use client'
+
 // /app/home/page.js
 import Header from "../components/Header/header"
 

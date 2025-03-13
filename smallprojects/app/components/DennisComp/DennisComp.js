@@ -1,5 +1,4 @@
 // /app/components/DennisComp/denniscomp.js
-'use client'
 
 export default function DennisComp() {
     return (

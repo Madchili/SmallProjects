@@ -1,4 +1,4 @@
-'use client'
+
 //  /app/components/timer/timer.js
 export default function Timer() {
     return (
