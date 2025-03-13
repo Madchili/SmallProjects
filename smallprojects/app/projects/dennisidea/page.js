@@ -1,5 +1,5 @@
-import Header from "@/app/components/Header/Header";
-import DennisComp from "@/app/components/DennisComp/DennisComp";
+import Header from "@/components/Header/Header";
+import DennisComp from "@/components/DennisComp/DennisComp";
 
 export default function TimerPage() {    
     return (
