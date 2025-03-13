@@ -1,5 +1,5 @@
 
-
+'use client'
 export default function DennisComp() {
     return (
         <div className="m-2">

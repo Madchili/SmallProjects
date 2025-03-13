@@ -1,3 +1,4 @@
+'use client'
 import Networth from "@/components/Networth/Networth";
 import Header from "@/components/Header/Header";
 
