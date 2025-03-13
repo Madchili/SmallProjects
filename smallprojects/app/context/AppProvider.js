@@ -1,7 +1,7 @@
 'use client'
 
 import { use } from "react";
-import { UserContextProvider } from "./UserContext";
+import { UserContextProvider } from "./usercontext";
 
 export default function AppProvider({ children }) {
     return (

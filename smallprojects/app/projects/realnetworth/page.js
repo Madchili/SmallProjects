@@ -1,6 +1,6 @@
 'use client'
-import Networth from "../../components/Networth/Networth";
-import Header from "../../components/Header/Header";
+import Networth from "../../components/Networth/networth";
+import Header from "../../components/Header/header";
 
 export default function TimerPage() {    
     return (
