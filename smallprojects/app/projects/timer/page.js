@@ -1,4 +1,4 @@
-import Timer from "../../components/timer/Timer";
+import Timer from "../../components/Timer/Timer";
 import Header from "../../components/Header/Header";
 
 export default function TimerPage() {    
