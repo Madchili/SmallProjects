@@ -2,8 +2,8 @@
 
 export default function Timer() {
     return (
-        <div>
-            <h1>Timer page</h1>
+        <div className="m-2">
+            <h2>Timer page</h2>
         </div>
     )
 }

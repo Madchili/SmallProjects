@@ -2,22 +2,41 @@
 
 import { createContext, useState, useRef, useContext } from "react";
 
-const userContext = createContext();
+const UserContext = createContext();
 
 export const UserContextProvider = ({ children }) => {
-    const [userData, setUserData] = useState(null);
+    const [userData, setUserData] = useState({
+        personalData: {
+            userId: 1,
+            name: "John Doe",
+            email: "example@email.com",
+            socials: {
+                github: "https://github.com",
+                linkedin: "https://linkedin.com",
+                twitter: "https://twitter.com",
+            },
+            password: "password",
+            role: "user",
+            image: "/BK fan-art.webp",
+        },
+        pageData: {
+            Timer: 0,
+            Score: 0,
+            Level: 1,
+        }
+    });
     
 
     return (
-        <userContext.Provider value={{
+        <UserContext.Provider value={{
             userData,
             setUserData
         }}>
             {children}
-        </userContext.Provider>
+        </UserContext.Provider>
     )
 }
 
-export const useAppContext = () => {
-    return useContext(UserContextProvider);
+export const useUserContext = () => {
+    return useContext(UserContext);
 }
